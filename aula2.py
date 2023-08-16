@@ -1,3 +1,4 @@
+# print function
 # Isso é uma função print;
 print(12, 34)
 # Ela recebe os argumentos 12 e 34;
