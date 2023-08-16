@@ -1,3 +1,4 @@
+# Comments in Python
 # Isso é um comentário em Python e não será interpretado pelo interpretador do mesmo.
 
 print('Acima, há um comentário que não foi interpretado, portanto, teoricamente não existe nessa instância. ')
