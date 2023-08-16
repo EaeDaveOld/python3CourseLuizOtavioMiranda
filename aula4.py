@@ -1,3 +1,5 @@
+# Data types - str, int & float
+
 # Tipos int e float
 # int -> Número inteiro
 # O tipo int representa qualquer número
