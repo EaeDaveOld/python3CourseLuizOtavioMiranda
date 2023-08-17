@@ -1,4 +1,4 @@
-# arithimetic operators
+# Arithimetic operators
 
 adicao = 10 + 10
 print('Adição', adicao)
