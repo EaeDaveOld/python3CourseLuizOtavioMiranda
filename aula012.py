@@ -1,4 +1,4 @@
-# Exercice - BMI Calculation (Cálculo do IMC)
+# Exercice - BMI Calculation (Cálculo do IMC) + Ellipsis
 
 nome = 'David Rodrigues'
 altura = 1.70
