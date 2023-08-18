@@ -1,4 +1,4 @@
-# Conditional - if, elif, else
+# Conditional - if, elif & else
 
 # if / elif      / else
 # se / se não se / se não
