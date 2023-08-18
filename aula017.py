@@ -12,3 +12,4 @@ else:
     
 
 print('Fora do if')
+print('out of if')
