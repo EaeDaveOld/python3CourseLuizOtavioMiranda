@@ -14,4 +14,4 @@ preco = 1000.95897643
 # Formatação de strings utilizando o método de interpolação com %
 variavel = '%s, o preço total é R$%.2f' % (nome, preco)
 print(variavel)
-print('O hexadecimal de %i é %X' % (1754, 1754))
+print('O hexadecimal de %i é %X' % (500, 500))
