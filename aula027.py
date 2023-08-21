@@ -1,5 +1,7 @@
 # len Function and slice string
 
+# :)
+
 """
 Fatiamento de strings
  012345678
