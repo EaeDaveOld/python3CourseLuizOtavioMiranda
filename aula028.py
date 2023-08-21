@@ -1,5 +1,7 @@
 # Exercice - Name and Age Analysis with Formatted Output in Python
 
+# :)
+
 """
 Exercício
 Peça ao usuário para digitar seu nome [CHECK]
