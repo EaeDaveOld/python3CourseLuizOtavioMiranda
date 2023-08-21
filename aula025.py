@@ -1,5 +1,7 @@
 # Format interpolation %
 
+# :)
+
 """
 Interpolação básica de strings
 s - string
