@@ -1,4 +1,4 @@
-# len function and slice string
+# len Function and slice string
 
 """
 Fatiamento de strings
