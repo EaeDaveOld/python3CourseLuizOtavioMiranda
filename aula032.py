@@ -38,6 +38,8 @@ Bom dia 0-11.59, Boa tarde 12-17.59 e Boa noite 18-23.59.
             print('Boa tarde :)')
         elif noite:
             print('Boa noite :)')
+        else:
+            print('Não conheço essa hora.')
     except ValueError:
         print('Digite somente números.')
 
@@ -51,13 +53,16 @@ menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva
     print('### Tamanho de Nomes ###')
     nome = input('Digite seu primeiro nome: ')
     letras_quantidade = len(nome)
-
-    if letras_quantidade <= 4:
-        print(f'Seu nome é, {nome}, tem {letras_quantidade} letras, então é curto.')
-    elif letras_quantidade >= 5 and letras_quantidade <= 6:
-        print(f'Seu nome é {nome}, tem {letras_quantidade} letras, então é normal.')
-    elif letras_quantidade > 6:
-        print(f'Seu nome é {nome}, tem {letras_quantidade} letras, então é muito grande.')
+    
+    if nome:
+        if letras_quantidade <= 4:
+            print(f'Seu nome é, {nome}, tem {letras_quantidade} letras, então é curto.')
+        elif letras_quantidade >= 5 and letras_quantidade <= 6:
+            print(f'Seu nome é {nome}, tem {letras_quantidade} letras, então é normal.')
+        elif letras_quantidade > 6:
+            print(f'Seu nome é {nome}, tem {letras_quantidade} letras, então é muito grande.')
+    else:
+        print('Digite alguma coisa.')
 
 print('### Escolha entre os 3 programas listados abaixo ###')
 print('[1] - Identificar Número (Par ou Ímpar)')
