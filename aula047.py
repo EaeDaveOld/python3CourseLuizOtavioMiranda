@@ -29,7 +29,6 @@ while True:
         print('Digite apenas uma letra.')
         continue
 
-
     if letra_digitada in palavra_secreta:
         letras_acertadas += letra_digitada
 
