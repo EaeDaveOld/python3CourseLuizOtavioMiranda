@@ -35,8 +35,9 @@ def calcular_media(lista):
             calculo = numeros_somados / len(lista)
             return calculo
     except:
-        print('Digite somente números separados por vírgulas.')
+        return 'Digite somente números separados por vírgulas.'
 
 
+print('#' * 5, 'Calcular média', '#' * 5)
 lista = input('Digite uma lista, separado por vírgula: ').split(',')
 print(calcular_media(lista))
