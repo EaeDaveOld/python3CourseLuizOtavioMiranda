@@ -30,7 +30,7 @@ pergunta_1 = input('Digite o valor: ')
 
 opcoes_1 = perguntas[0]['Opções']
 
-if pergunta_1 == '5':
+if pergunta_1 == perguntas[0]['Resposta']:
     print('Resposta correta!')
     acertos += 1
 elif pergunta_1 not in opcoes_1:
@@ -46,7 +46,7 @@ print(perguntas[1]['Pergunta'])
 print(f'Opções: {perguntas[1]["Opções"]}')
 pergunta_2 = input('Digite o valor: ')
 
-if pergunta_2 == '25':
+if pergunta_2 == perguntas[1]['Resposta']:
     print('Resposta correta!')
     acertos += 1
 elif pergunta_2 not in perguntas[1]['Opções']:
@@ -63,7 +63,7 @@ print(perguntas[2]['Pergunta'])
 print(f'Opções: {perguntas[2]["Opções"]}')
 pergunta_2 = input('Digite o valor: ')
 
-if pergunta_2 == '5':
+if pergunta_2 == perguntas[2]['Resposta']:
     print('Resposta correta!')
     acertos += 1
 elif pergunta_2 not in perguntas[2]['Opções']:
