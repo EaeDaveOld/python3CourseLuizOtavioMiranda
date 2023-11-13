@@ -1,1 +1,2 @@
-print('Linha 1'[1000])
+
+status_bar.showMessage('Selecione uma opção')
