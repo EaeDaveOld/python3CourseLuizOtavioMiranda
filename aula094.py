@@ -3,7 +3,7 @@
 # https://docs.python.org/pt-br/3/library/exceptions.html#built-in-exceptions
 try:   # Só será executado a linha abaixo, os códigos que não ocorrerem nenhum erro.
     print("A variável valor é igual a 10, e não será executada pois não foi declarada, está como um comentário.")
-    print(valor)
+    print(valor)  # type: ignore
 # Caso ocorra uma exceção, qualquer erro... O código abaixo será executado.
 except NameError as NomeError:
     print(NomeError.__class__.__name__)
