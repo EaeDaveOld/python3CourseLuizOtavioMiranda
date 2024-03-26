@@ -17,8 +17,11 @@ except ModuleNotFoundError:
     ...
 
 import aula097_m
+from aula097_m import variavel_modulo
 
-print("Este módulo se chama", __name__)
+# print("Este módulo se chama", __name__)
+print(aula097_m.variavel_modulo)
+print(variavel_modulo)
 
 # Mostra todos os caminhos dos módulos carregados pelo python
 print(*sys.path, sep='\n')
