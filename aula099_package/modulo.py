@@ -4,11 +4,11 @@
 # from aula099_package import modulo *
 from aula099_package.modulo_b import fala_oi
 
-__all__ = [
-    "variavel",
-]
+# __all__ = [
+#     "variavel",
+# ]
 
-variavel = "David"
+# variavel = "David"
 
 
 def soma_do_modulo(x, y):  # Essa função não será importada ao usar o *
